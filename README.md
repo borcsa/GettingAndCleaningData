@@ -12,7 +12,7 @@ For information about the data, please read the README file contained in the abo
 
 
 ### Project Content:
-run-analysis.R:	R-code to process the above data
+run_analysis.R:	R-code processing the above data
 
 
 ### Summary
