@@ -24,7 +24,7 @@ The whole process can be summarized in five steps:
 * From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
-### Steps 1-3
+### More to Steps 1-3
 
 Both for the training and for the test set we had three seperate data files available:
 * x_train.txt / x_test.txt: containing measurment outcome of the training/ test data;
