@@ -1,6 +1,6 @@
 # Codebook
 
-### Raw Data and Study Design
+## Raw Data and Study Design
 
 The raw data was downloaded from the following link
 
@@ -23,8 +23,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details. 
 
-For each record it is provided:
-======================================
+#### For each record it is provided:
 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 
@@ -32,8 +31,7 @@ For each record it is provided:
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-The dataset includes the following files:
-=========================================
+#### The dataset includes the following files:
 
 - 'README.txt'
 
@@ -61,7 +59,7 @@ The following files are available for the train and test data. Their description
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
-#### Notes: 
+##### Notes: 
 
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
@@ -81,7 +79,7 @@ Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012
 For a detailed describtion, please read the README file contained in the downloaded data.
 
 
-### Variables - Merged Test and Training Data
+## Variables - Merged Test and Training Data
 
 - 1 SubjectID:  A unique subject id assigned to each subject taking part in the experiment. Its range is from 1 to 30. 
 - 2 Activity:  A qualitative variable referring to the activity performed by the subject. Range: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
@@ -124,7 +122,7 @@ std(): Standard deviation
 The complete list of variables of each feature vector is available in 'features.txt'
 
 
-### Summary
+## Summary
 
 We summerized the merged test and training data by calculating, for each subject and activity, the average of each feature variable.e
 
