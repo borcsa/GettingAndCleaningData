@@ -12,9 +12,10 @@ For information about the data, please read the README file contained in the abo
 
 
 ### Project Content:
+* averages.txt (summary of tidy data)
 * run_analysis.R	(R-code processing the above data)
 * Codebook.md
-* averages.txt (summary of tidy data)
+* README.md
 
 
 ### Summary
